@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    background: none;
+    padding: 5px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background: rgba(128, 128, 128, 0.263);
+}

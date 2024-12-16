@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2vw 50px 2vw;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+header div a {
+    padding: 0 2vw;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-output div {
+    position: absolute;
+    background-color: rgb(217, 217, 217);
+    padding: 10px;
+    border-radius: 15px;
+    top: 30px;
+    right: 0;
+    width: 300px;
+}
+
+.search-output div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.search-output div a:hover {
+    text-decoration: underline;
+}

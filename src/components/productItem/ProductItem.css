@@ -1,0 +1,13 @@
+.p-item {
+    border: 1px solid rgba(122, 122, 122, 0.426);
+    padding: 10px;
+
+}
+
+.p-item h4 {
+    margin-bottom: 10px;
+}
+
+.p-item p {
+    margin-bottom: 20px;
+}

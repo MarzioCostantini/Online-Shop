@@ -1,0 +1,10 @@
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+
+}
+
+.p-list div {
+    margin-bottom: 30px;
+}
